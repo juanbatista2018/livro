@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title> Home </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/cssPrincipal.css">
+	</head>
+	<body>
+	<div class="pagina">
+		<div class="section">	
+			<div class="nav">
+			<nav>
+				<ul>
+					<div class="menu"> 	<li> <a href="index.html" class="opçoesMenu"> Home </a> </li> </div>
+					<div class="menu"> 	<li> <a href="html/autor.html" class="opçoesMenu"> Autor </a> </li> </div>
+					<div class="menu"> 	<li class="dropdown"> 
+											<a href="html/livros.html" href="javascript:void(0)" class="dropbtn">Livro</a>
+											<div class="dropdown-content">
+												<a href="livroshtml/pedrafilosofal.html">Pedra Filosofal</a>
+												<a href="livroshtml/camarasecreta.html">Câmara Secreta</a>
+												<a href="livroshtml/prisioneiroaskaban.html">Prisioneiro de Askaban</a>
+												<a href="livroshtml/calicedefogo.html">Cálice de fogo</a>
+												<a href="livroshtml/ordemdafenix.html">Ordem da fênix</a>
+												<a href="livroshtml/enigmadoprincipe.html">Enigma do Príncipe</a>
+												<a href="livroshtml/reliquiasdamorte.html">Relíquias da morte</a>
+											</div> 	
+										</li>
+					</div>
+					<div class="menu"> 	<li> <a href="html/biografia.html" class="opçoesMenu"> Biografia </a> </li> </div>
+					<div class="menu"> 	<li> <a href="html/formulario.html" class="opçoesMenu"> Contato </a>	 </li> </div> 
+				</ul>
+			</nav>
+			</div>
+		<br>
+		<br>
+		<section>
+			<center>
+				<div class="slideshow-container">
+				<div class="mySlides fade">
+				  <img src="img/pedra.jpg" height="500px">
+				</div>
+				<div class="mySlides fade">
+				  <img src="img/camara.jpg" height="500px">
+				</div>
+				<div class="mySlides fade">
+				  <img src="img/prisioneiro.jpg" height="500px">
+				</div>
+				<div class="mySlides fade">
+				  <img src="img/calice.jpg" height="500px">
+				</div>
+				<div class="mySlides fade">
+				  <img src="img/ordem.jpg" height="500px">
+				</div>
+
+				<div class="mySlides fade">
+				  <img src="img/enigma.jpg" height="500px">
+				</div>
+
+				<div class="mySlides fade">
+				  <img src="img/reliquias.jpg" height="500px">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>	
+				</div>
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+				  <span class="dot" onclick="currentSlide(5)"></span> 
+				  <span class="dot" onclick="currentSlide(6)"></span> 
+				  <span class="dot" onclick="currentSlide(7)"></span> 
+				</div>
+				<br>
+				<br>
+			</center>
+			<p> Esse site foi desenvolvido por alunos da Etec Jardim Ângela com intuito acadêmico da matéria de Programação Web, ministrada pelo professor Willians Lopes de Souza. </p>
+		</section>
+		</div>
+	<br>
+	<br>		
+	</div>
+	<footer>
+		<center>
+		<div class="FinalPag"> &copy; Desenvolvido por <b>Caique</b>, <b>Weverton</b>, <b>Basista</b> </div>
+		</center>
+	</footer>
+	
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	}
+	</script>
+	</body>
+</html>

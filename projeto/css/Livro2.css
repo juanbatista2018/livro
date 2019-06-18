@@ -1,0 +1,194 @@
+		body {
+		background-image: url('../img/fundo.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		}
+		
+		@font-face{
+		font-family: Harry;
+		src: url(../font/HARRYP__.TTF);
+		}
+		
+		@font-face{
+		font-family: shadows;
+		src: url(../font/ShadowsIntoLight.ttf);
+		}
+		
+		.pagina{
+		width:1280px;
+		height:1024px;
+		margin: auto;
+		}
+
+		.nav{
+		height: 50px;
+		width: 50%;
+		margin: auto;
+		background-color: rgba(0, 0, 0, 0.7);
+		font-family: Harry;
+		font-size: 35px;
+		}
+		
+		.section{
+		height: 800px;
+		width: 100%;
+		position: relative;
+		margin: auto;
+		background-color: rgba(0, 0, 0, 0.2);
+		}
+				
+		.FinalPag{
+		color: white;
+		margin: auto;
+		height: 20px;
+		width: 50%;
+		font-size: 20px;
+		}
+
+		ul{
+		list-style-type: none;
+		}
+
+		.menu{
+		float: left; 
+		}
+
+		li a, .dropbtn {
+		  display: inline-block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		li a:hover, .dropdown:hover .dropbtn {
+		  background-color: red;
+		}
+
+		li.dropdown {
+		  display: inline-block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: rgba(0, 0, 0, 0.7);
+		}
+
+		.dropdown-content a {
+		  color: white;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		
+		.imagemLivro{
+			width: 330px;
+			height: 500px;
+			position: relative;
+			float: left;
+			left: 13%;
+			
+		}
+		
+		.sinopseLivro{
+			width: 330px;
+			height: 500px;
+			position: relative;
+			float: right;
+			left: -13%;
+		}
+		
+		.imagensPerso{
+			width: 70%;
+			height: 200px;
+			position: relative;
+			display: table;
+			left: 17%;
+			top: 150px;
+		}
+		
+		.imagem1{
+			width: 15%;
+			height: 200px;
+			position: relative;
+			display: table-cell;
+			background-image: url(../img/infoP/barto.png);
+			background-size: 80% 98%;
+			background-repeat: no-repeat;
+		}
+		
+
+
+		.imagem2{
+			width: 15%;
+			height: 200px;
+			position: relative;
+			display: table-cell;
+			background-image: url(../img/infoP/barto.png);
+			background-size: 80% 98%;
+			background-repeat: no-repeat;
+		}
+		
+		
+		.imagem3{
+			width: 15%;
+			height: 200px;
+			position: relative;
+			display: table-cell;
+			background-image: url(../img/infoP/barto.png);
+			background-size: 80% 98%;
+			background-repeat: no-repeat;
+
+		}
+		
+		
+			.imagem4{
+			width: 15%;
+			height: 200px;
+			position: relative;
+			display: table-cell;
+			background-image: url(../img/infoP/barto.png);
+			background-size: 80% 98%;
+			background-repeat: no-repeat;
+			
+		}
+	
+		
+		p{
+			background-color: rgba(0, 0, 0, 0.4);
+			color: white;
+			font-family: shadows;
+			text-align: center;
+			font-size: 20px;			
+		}
+		
+		.perso1:hover{
+			opacity: 0.2;
+		}
+		
+		.perso2:hover{
+			opacity: 0.2;
+		}
+		
+		.perso3:hover{
+			opacity: 0.2;
+		}
+		
+		.perso4:hover{
+			opacity: 0.2;
+		}
+
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+		  
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			background: rgba(255,255,255,0.8); 
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+		}	

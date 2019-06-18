@@ -1,0 +1,281 @@
+		body {
+		background-image: url('../img/fundo.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		}
+		
+		@font-face{
+		font-family: Harry;
+		src: url(../font/HARRYP__.TTF);
+		}
+		
+		@font-face{
+		font-family: shadows;
+		src: url(../font/ShadowsIntoLight.ttf);
+		}
+		
+		.pagina{
+		width:1280px;
+		height:1100px;
+		margin: auto;
+		}
+
+		.nav{
+		height: 50px;
+		width: 50%;
+		margin: auto;
+		background-color: rgba(0, 0, 0, 0.7);
+		font-family: Harry;
+		font-size: 35px;
+		}
+		
+		.section{
+		height: 800px;
+		width: 100%;
+		position: relative;
+		margin: auto;
+		background-color: rgba(0, 0, 0, 0.2);
+		}
+				
+		.FinalPag{
+		color: white;
+		margin: auto;
+		height: 20px;
+		width: 50%;
+		font-size: 20px;
+		}
+
+		ul{
+		list-style-type: none;
+		}
+
+		.menu{
+		float: left; 
+		}
+
+		li a, .dropbtn {
+		  display: inline-block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		li a:hover, .dropdown:hover .dropbtn {
+		  background-color: red;
+		}
+
+		li.dropdown {
+		  display: inline-block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: rgba(0, 0, 0, 0.7);
+		}
+
+		.dropdown-content a {
+		  color: white;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		
+		.livro1 {
+			position: relative;
+			float: left;
+			top: 0px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa1 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio1 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
+		.livro2 {
+			position: relative;
+			float: right;
+			top: 0px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa2 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio2 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
+		.livro3 {
+			position: relative;
+			top: 0px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa3 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio3 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
+		.livro4 {
+			position: relative;
+			float: right;
+			top: -240px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa4 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio4 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
+		.livro5 {
+			position: relative;
+			float: left;
+			top: 15px;
+			left: -160px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa5 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio5 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		.livro6 {
+			position: relative;
+			float: left;
+			top: 15px;
+			left: 30px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa6 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio6 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
+		.livro7 {
+			position: relative;
+			float: right;
+			top: -235px;
+			left: 320px;
+			width: 25%;
+			height: 15%;
+		}
+		
+		.capa7 {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 100%;
+		}
+		
+		.bio7 {
+			position: relative;
+			float: right;
+			width: 45%;
+			height: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
+		.comentário {
+			position: relative;
+			float: left;
+			top: 80px;
+			width: 50%;
+			color: white;
+			font-size: 25px;
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		
+		a {
+		color: white;
+		}
+		
+		::-webkit-scrollbar {
+			width: 12px;
+		}
+		  
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			background: rgba(255,255,255,0.8); 
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+		}	
